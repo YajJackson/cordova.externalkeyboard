@@ -17,9 +17,6 @@
     <!-- ios -->
     <platform name="ios">
         <config-file target="config.xml" parent="/*">
-            <feature name="ExternalKeyboard">
-                <param name="ios-package" value="ExternalKeyboard" onload="true" />
-            </feature>
         </config-file>
 
         <header-file src="src/ios/ExternalKeyboard.h" />
